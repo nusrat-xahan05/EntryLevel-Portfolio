@@ -272,7 +272,7 @@ body{
     margin-bottom: 15px;
 }
 
-#ctarget .ctarget_contents .ctarget_content_items h4{
+/* #ctarget .ctarget_contents .ctarget_content_items h4{
     font-weight: 800;
     font-size: 24px;
 }
@@ -289,8 +289,57 @@ body{
     font-size: 16px;
     border-bottom: 2px solid black;
     color: black;
+} */
+/* ======================================
+        'CURRENT TARGET' PART END
+====================================== */
+
+.target_contents h4{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.target_contents p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555A63;
+    margin: 20px 0px;
+}
+
+.target_contents a{
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+    color: black;
 }
 
 /* ======================================
-        'CURRENT TARGET' PART END
+         'NEXT TARGET' PART START
+====================================== */
+#ntarget{
+    margin: 70px 0px;
+}
+
+#ntarget .ntarget_contents .ntarget_content_items{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 15px;
+    border: 2px solid #FAFAFB;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#ntarget .ntarget_contents .ntarget_content_items .text_part{
+    width: 84%;
+}
+
+#ntarget .ntarget_contents .ntarget_content_items .img_part{
+    width: 16%;
+}
+/* ======================================
+         'NEXT TARGET' PART END
 ====================================== */
