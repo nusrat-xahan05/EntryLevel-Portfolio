@@ -133,7 +133,7 @@ body{
          'DEVELOPMENT' PART START
 ====================================== */
 #development{
-    margin: 50px 0px;
+    margin: 70px 0px;
 }
 
 #development .development_main{
@@ -213,7 +213,7 @@ body{
         'INSPIRATION' PART START
 ====================================== */
 #inspiration{
-    padding: 80px 0px;
+    margin: 70px 0px;
 }
 
 #inspiration .ins_content{
@@ -238,4 +238,59 @@ body{
 }
 /* ======================================
         'INSPIRATION' PART END
+====================================== */
+
+
+/* ======================================
+        'CURRENT TARGET' PART START
+====================================== */
+#ctarget{
+    margin: 70px 0px;
+}
+
+#ctarget .ctarget_contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ctarget .ctarget_contents .ctarget_content_items{
+    padding: 25px;
+    background-color: #FFF6F4;
+    width: 28%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#ctarget .ctarget_contents .second{
+    background-color: #F2F6FE;
+}
+
+#ctarget .ctarget_contents .ctarget_content_items img{
+    margin-bottom: 15px;
+}
+
+#ctarget .ctarget_contents .ctarget_content_items h4{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#ctarget .ctarget_contents .ctarget_content_items p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555A63;
+    margin: 20px 0px;
+}
+
+#ctarget .ctarget_contents .ctarget_content_items a{
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+/* ======================================
+        'CURRENT TARGET' PART END
 ====================================== */
