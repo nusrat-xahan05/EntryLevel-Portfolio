@@ -218,7 +218,7 @@ body{
 
 #inspiration .ins_content{
     height: 660px;
-    border: 2px solid #FAFAFB;
+    border: 2px solid rgba(219, 220, 222, 0.7);
     padding: 30px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -271,29 +271,10 @@ body{
 #ctarget .ctarget_contents .ctarget_content_items img{
     margin-bottom: 15px;
 }
-
-/* #ctarget .ctarget_contents .ctarget_content_items h4{
-    font-weight: 800;
-    font-size: 24px;
-}
-
-#ctarget .ctarget_contents .ctarget_content_items p{
-    font-weight: 400;
-    font-size: 16px;
-    color: #555A63;
-    margin: 20px 0px;
-}
-
-#ctarget .ctarget_contents .ctarget_content_items a{
-    font-weight: 700;
-    font-size: 16px;
-    border-bottom: 2px solid black;
-    color: black;
-} */
 /* ======================================
         'CURRENT TARGET' PART END
 ====================================== */
-
+/* ============='CURRENT & NEXT TARGET' COMMON PART START=============*/
 .target_contents h4{
     font-weight: 800;
     font-size: 24px;
@@ -312,7 +293,7 @@ body{
     border-bottom: 2px solid black;
     color: black;
 }
-
+/* ============='CURRENT & NEXT TARGET' COMMON PART END=============*/
 /* ======================================
          'NEXT TARGET' PART START
 ====================================== */
@@ -325,7 +306,7 @@ body{
     align-items: center;
     padding: 25px;
     margin-bottom: 15px;
-    border: 2px solid #FAFAFB;
+    border: 2px solid rgba(219, 220, 222, 0.7);
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
