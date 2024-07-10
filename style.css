@@ -408,3 +408,32 @@ body{
 /* ======================================
             'SUPPORT' PART END
 ====================================== */
+
+
+
+/* ======================================
+            'FOOTER' PART START
+====================================== */
+#footer{
+    padding: 32px 0px;
+    background-color: #FAFAFB;
+}
+
+#footer .footer_contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .footer_contents .copyright_text p{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+#footer .footer_contents .contact_icons a{
+    margin-left: 14px;
+}
+/* ======================================
+            'FOOTER' PART END
+====================================== */
