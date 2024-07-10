@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ======================================
+       'ALL COMMON CSS' PART START
+====================================== */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ======================================
+       'ALL COMMON CSS' PART END
+====================================== */
+
+
+
+/* ======================================
+            'NAVBAR' PART START
+====================================== */
+#navbar .nav_contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0px;
+}
+
+#navbar .nav_contents h3{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#navbar .nav_contents a{
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+/* ======================================
+            'NAVBAR' PART END
+====================================== */
+
+
+/* ======================================
+            'BANNER' PART START
+====================================== */
+#banner{
+    background-image: url(images/background-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+#banner .banner_contents{
+    text-align: center;
+}
+
+#banner .banner_contents h2{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 25px;
+}
+
+#banner .banner_contents p{
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 852px;
+    margin: 25px auto;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#banner .banner_contents a{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+/* ======================================
+            'BANNER' PART END
+====================================== */
